@@ -1,0 +1,232 @@
+.project-show-page {
+  margin-top: 70px;
+}
+
+// Title and username
+.detail-user-title {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+}
+
+.detail-user {
+  padding: 30px 0;
+  margin: 5px 30px;
+  width: 120px;
+  font-size: 15px;
+}
+
+.detail-user-title div:nth-child(2) {
+  width: 80%;
+  margin-right: 90px;
+  margin-bottom: 35px;
+}
+
+.detail-user-title div p span {
+  font-weight: bold;
+}
+
+p#display-title {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#descriptionText{
+  font-size: 18px;
+  color: #737373;
+}
+
+.detail-user-title div:first-child > * {
+  margin: 10px;
+}
+
+#descriptionText {
+  line-height: 24px;
+}
+
+.detail-img{
+  display: block;
+  max-width: 100%;
+  max-height: 550px;
+  margin: auto;
+}
+
+.detail-project-img{
+  display: block;
+  width: 755px;
+  position: relative;
+  padding: 0 63px;
+  padding-bottom: 20px;
+}
+
+
+detail-user {
+  border: 1px solid green;
+  width: 599px;
+  height: 133px;
+  margin-right: 100px
+}
+
+.detail-img-stats{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.detail-stats {
+  width: 344px;
+  padding: 25px 0;
+  position: relative;
+}
+
+.show-number{
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 2rem;
+}
+
+.funded-amt{
+  color: #05AF3C;
+}
+
+.show-stat-txt{
+  color: #626369;
+  font-size: 18px;
+  line-height: 1.4rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.back-project-button{
+  background: #05AF3C;
+  display: block;
+  padding: 16px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  margin-top: 11px;
+  &:hover{
+    padding-bottom: 14px;
+    box-shadow: 2px 1px 10px #A3A287;
+    background: green;
+  }
+}
+
+.userButtons{
+  display: flex;
+  margin-top: 20px;
+}
+
+.show-edit-button{
+  background: white;
+  border-radius: 3px;
+  padding: 12px 56px;
+  margin-right: 25px;
+  box-shadow: 2px 1px 5px #A3A287;
+  &:hover{
+    padding-bottom: 12px;
+    box-shadow: 2px 1px 14px #A3A287;
+  }
+}
+
+.show-delete-button{
+  background: white;
+  border-radius: 3px;
+  padding: 12px 52px;
+  box-shadow: 2px 1px 5px #A3A287;
+  &:hover{
+    padding-bottom: 12px;
+    box-shadow: 2px 1px 14px #A3A287;
+  }
+}
+
+.detail-stats p {
+  font-size: 14px;
+}
+
+.detail-stats p {
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.show-picture-footer{
+  margin: 11px 0px;
+  font-size: 18px;
+  color: gray;
+}
+
+.spf{
+  padding: 1px 18px;
+}
+
+.show-about-project {
+  font-size: 18px;
+  display: block;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.show-about-title-detail{
+  width: 608px;
+}
+
+.show-about-project:first-child {
+  font-size: 24px;
+}
+
+.show-about-title{
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.project-show-main-page{
+  margin: auto;
+}
+
+.show-background-stat-user {
+  background: #ecece6;
+}
+
+svg.rc-progress-line.stats-bar-show {
+    position: absolute;
+    margin: -27px 0;
+}
+
+.user-icon-detail{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+@media screen and (max-width:1405px) {
+  .detail-img-stats{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: auto;
+    box-sizing: content-box;
+  }
+
+  .detail-project-img {
+    display: block;
+    width: 605px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+
+  .detail-user-title {
+      display: flex;
+      width: 91%;
+      margin: auto;
+      justify-content: center;
+  }
+}
